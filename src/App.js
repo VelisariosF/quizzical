@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React  from 'react';
 import './App.css';
+import HomePage from './HomePage';
+import QuestionsPage from './QuestionsPage';
 
-function App() {
+export default function App() {
+  const [startGame, setStartGame] = React.useState(false)
+  
+
+  function toggleStartGame(){
+    setStartGame(true)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='home'>
+      {startGame ? <QuestionsPage/> : <HomePage toggle={toggleStartGame}/>}
     </div>
-  );
+  
+  )
 }
 
-export default App;
+

@@ -6,27 +6,33 @@ export default function Question(props) {
     
     const answer_elements = selected.map((answer,index) => {
         return <Answer
+            id={index}
             value={answer.text}
             isSelected={answer.isSelected} 
             toggle={() => toggle(index)} />
     })
- 
+    
     function toggle(answer_Id) {
+      
         setSelected(prevAnswers => prevAnswers.map((prevAnswer, index) => {
-            
-            return index === answer_Id ?
-                {
-                    ...prevAnswer,
-                    isSelected: !prevAnswer.isSelected
-                } :
-                {
-                    ...prevAnswer, 
-                isSelected: false
-            } 
+            return index === answer_Id?
+             {
+                 ...prevAnswer,
+                 isSelected : !prevAnswer.isSelected
+             }:
+             {
+                ...prevAnswer,
+                isSelected:false
+             }
+
         }))
-    }
 
-
+      
+        
+       }
+        
+    
+     
 
     return (
 

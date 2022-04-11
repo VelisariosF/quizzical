@@ -2,123 +2,39 @@
     "response_code": 0,
     "results": [
         {
-            "category": "General Knowledge",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "Which language is NOT Indo-European?",
-            "correct_answer": "Hungarian",
-            "incorrect_answers": [
-                "Russian",
-                "Greek",
-                "Latvian"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "easy",
-            "question": "Which eSports team came first place in The International Dota 2 Championship 2016?",
-            "correct_answer": "Wings Gaming",
-            "incorrect_answers": [
-                "Digital Chaos",
-                "Evil Geniuses",
-                "Fnatic"
-            ]
-        },
-        {
-            "category": "Entertainment: Video Games",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "In the beta version of the 1986 game &quot;The Legend of Zelda&quot;, players have the choice between a sword and what other item?",
-            "correct_answer": "Boomerang ",
-            "incorrect_answers": [
-                "Spear",
-                "Slingshot",
-                "Crossbow"
-            ]
-        },
-        {
             "category": "Mythology",
             "type": "multiple",
             "difficulty": "hard",
-            "question": "Which of the following is NOT a god in Norse Mythology.",
-            "correct_answer": "Jens",
+            "question": "Nidhogg is a mythical creature from what mythology?",
+            "correct_answer": "Norse",
             "incorrect_answers": [
-                "Loki",
-                "Tyr",
-                "Snotra"
-            ]
-        },
-        {
-            "category": "General Knowledge",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "Which slogan did the fast food company, McDonald&#039;s, use before their &quot;I&#039;m Lovin&#039; It&quot; slogan?",
-            "correct_answer": "We Love to See You Smile",
-            "incorrect_answers": [
-                "Why Pay More!?",
-                "Have It Your Way",
-                "Making People Happy Through Food"
-            ]
-        },
-        {
-            "category": "History",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "Who crowned Charlemagne as Holy Roman Emperor on Christmas Day in 800?",
-            "correct_answer": "Pope Leo III",
-            "incorrect_answers": [
-                "Pope Urban IV",
-                "Pope Stephen V",
-                "Pope Valentine"
-            ]
-        },
-        {
-            "category": "Animals",
-            "type": "multiple",
-            "difficulty": "easy",
-            "question": "How many teeth does an adult rabbit have?",
-            "correct_answer": "28",
-            "incorrect_answers": [
-                "30",
-                "26",
-                "24"
-            ]
-        },
-        {
-            "category": "History",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "Which of these founding fathers of the United States of America later became president?",
-            "correct_answer": "James Monroe",
-            "incorrect_answers": [
-                "Alexander Hamilton",
-                "Samuel Adams",
-                "Roger Sherman"
+                "Egyptian",
+                "Greek",
+                "Hindu"
             ]
         },
         {
             "category": "Entertainment: Video Games",
             "type": "multiple",
-            "difficulty": "easy",
-            "question": "Who is the main protagonist in the game Life is Strange: Before The Storm?",
-            "correct_answer": "Chloe Price ",
+            "difficulty": "medium",
+            "question": "This weapon in Counter-Strike: Global Offensive does not exist in real life.",
+            "correct_answer": "M4A4",
             "incorrect_answers": [
-                "Max Caulfield",
-                "Rachel Amber",
-                "Frank Bowers"
+                "AWP",
+                "M4A1",
+                "MP9"
             ]
         },
         {
-            "category": "Entertainment: Television",
+            "category": "General Knowledge",
             "type": "multiple",
             "difficulty": "easy",
-            "question": "In the show &quot;Futurama&quot; what is Fry&#039;s full name?",
-            "correct_answer": "Philip J. Fry",
+            "question": "Which of the following card games revolves around numbers and basic math?",
+            "correct_answer": "Uno",
             "incorrect_answers": [
-                "Fry J. Philip",
-                "Fry Rodr&iacute;guez",
-                "Fry Philip"
+                "Go Fish",
+                "Twister",
+                "Munchkin"
             ]
         }
     ]

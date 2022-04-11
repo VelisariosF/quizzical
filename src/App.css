@@ -120,7 +120,8 @@ transform: rotate(-0.05deg);
   word-wrap: break-word;
   hyphens: auto;
   display: flex;
-  -webkit-transition: background-color 0.2s ease-out;
+  -webkit-transition: background-color 0.3s ease-out;
+  -webkit-transition: color 0.2s ease-out;
   align-items: center;
   justify-content: center;
   padding: 1%;
@@ -134,7 +135,7 @@ transform: rotate(-0.05deg);
 
 .answer:hover{
   background-color: #666;
-  
+ 
 }
 
 /* Questions Page   */
